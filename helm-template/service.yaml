@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ioc-ui-service
+  labels:
+    app: ioc-ui-app
+spec:
+  ports:
+    - name: ioc-ui-app
+      port: 80
+      targetPort: 80
+  selector:
+    app: ioc-ui-app
+  type: ClusterIP
