@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ioc-ui-chart:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-02-29T08:15:05.071711293Z"
+    description: A Helm chart for Kubernetes
+    digest: e90b09a25e4bd0ea1da086cc830e650550cb436e4887f5efb5006a78ab1c417a
+    name: ioc-ui-chart
+    type: application
+    urls:
+    - assets/ioc-ui-chart-2024.02.00-0002-ALPHA.tgz
+    version: 2024.02.00-0002-ALPHA
+generated: "2024-02-29T08:15:05.071512401Z"
